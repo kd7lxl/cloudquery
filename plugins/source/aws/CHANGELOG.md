@@ -9,6 +9,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [19.1.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-aws-v19.0.0...plugins-source-aws-v19.1.0) (2023-06-23)
 
 
+### This Release has the Following Changes to Tables
+- Table `aws_codeartifact_domains` was added
+- Table `aws_codeartifact_repositories` was added
+- Table `aws_codebuild_builds` was added
+- Table `aws_codebuild_source_credentials` was added
+- Table `aws_servicediscovery_instances` was added
+- Table `aws_servicediscovery_namespaces` was added
+- Table `aws_servicediscovery_services` was added
+- Table `aws_wellarchitected_lens_review_improvements` was added
+- Table `aws_wellarchitected_lens_reviews` was added
+- Table `aws_wellarchitected_lenses` was added
+- Table `aws_wellarchitected_share_invitations` was added
+- Table `aws_wellarchitected_workload_milestones` was added
+- Table `aws_wellarchitected_workload_shares` was added
+- Table `aws_wellarchitected_workloads` was added
+
 ### Features
 
 * Add AWS Well-Architected resources ([#11697](https://github.com/cloudquery/cloudquery/issues/11697)) ([83174fe](https://github.com/cloudquery/cloudquery/commit/83174fef5f43b39aa99129c2bf7213aea7e280be)), closes [#11664](https://github.com/cloudquery/cloudquery/issues/11664)
