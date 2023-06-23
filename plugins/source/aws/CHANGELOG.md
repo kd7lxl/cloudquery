@@ -6,6 +6,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [19.1.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-aws-v19.0.0...plugins-source-aws-v19.1.0) (2023-06-23)
+
+
+### Features
+
+* Add AWS Well-Architected resources ([#11697](https://github.com/cloudquery/cloudquery/issues/11697)) ([83174fe](https://github.com/cloudquery/cloudquery/commit/83174fef5f43b39aa99129c2bf7213aea7e280be)), closes [#11664](https://github.com/cloudquery/cloudquery/issues/11664)
+* **aws:** Add Support for `builds` and `source credentials` for AWS CodeBuild  ([#11705](https://github.com/cloudquery/cloudquery/issues/11705)) ([4eed4dc](https://github.com/cloudquery/cloudquery/commit/4eed4dc1816ddb5c4b5e0cda50489ef912bd0f94))
+* **aws:** Add Support for AWS CodeArtifact Domains and Repositories ([#11698](https://github.com/cloudquery/cloudquery/issues/11698)) ([1838151](https://github.com/cloudquery/cloudquery/commit/18381512bb1d738521601b9f514da220aad2f366))
+* **aws:** Add Support for Cloud Map (servicediscovery) resources ([#11702](https://github.com/cloudquery/cloudquery/issues/11702)) ([0cefa8c](https://github.com/cloudquery/cloudquery/commit/0cefa8cb16999470fa4d3ad26c5617724346d265))
+
+
+### Bug Fixes
+
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to 8366a22 ([#11717](https://github.com/cloudquery/cloudquery/issues/11717)) ([8eeff5b](https://github.com/cloudquery/cloudquery/commit/8eeff5b17486d72845f830b99983f950fee7f5a0))
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to 95d3199 ([#11708](https://github.com/cloudquery/cloudquery/issues/11708)) ([03f214f](https://github.com/cloudquery/cloudquery/commit/03f214f3dfd719b74ce9eb698ba255a8cf7528c7))
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to f0dffc6 ([#11689](https://github.com/cloudquery/cloudquery/issues/11689)) ([18ac0e9](https://github.com/cloudquery/cloudquery/commit/18ac0e9dbef31d06701f1f13d263ad840ac60c5e))
+* **deps:** Update module github.com/cloudquery/plugin-pb-go to v1.2.0 ([#11720](https://github.com/cloudquery/cloudquery/issues/11720)) ([7ef521d](https://github.com/cloudquery/cloudquery/commit/7ef521db1423c6f0de197b08c73adf22c896f999))
+* **deps:** Update module github.com/cloudquery/plugin-pb-go to v1.2.1 ([#11722](https://github.com/cloudquery/cloudquery/issues/11722)) ([309be72](https://github.com/cloudquery/cloudquery/commit/309be7276d7de157013c281b6fb3934513898b3f))
+
 ## [19.0.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-aws-v18.4.0...plugins-source-aws-v19.0.0) (2023-06-20)
 
 
